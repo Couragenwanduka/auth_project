@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>sign up</title>
+</head>
+<body>
+  <h1>sign up</h1>
+  <div>
+  <form method="post" target="_blank" id="signupForm" action="http://localhost:8000/signup">
+   <label for="firstname" id="firstname">First name</label>
+   <input type="text" name="firstname" id="firstname" required>
+   <label for="lastname" id="lastname">Last name</label>
+   <input type="text" name="lastname" id="lastname" required >
+   <label for="email" id="email">Email</label>
+   <input type="text" name="email" id="email" required >
+   <label for="password" id="password">Password</label>
+   <input type="password" name="password" id="password" required>
+   <button type="submit" id="button" class="five">Save</button>
+  </form>
+</div>
+
+<div id="message"></div>
+
+<script src="signup.js"></script>
+</body>
+</html>
