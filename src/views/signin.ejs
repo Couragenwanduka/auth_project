@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <title>sign in</title>
+</head>
+<body>
+  <h1>sign in</h1>
+  <div>
+  <form method="post" target="_blank" action="http://localhost:8000/signin">
+   <!-- <label for="firstname" id="firstname">First name</label>
+   <input type="text" name="firstname" id="firstname" >
+   <label for="lastname" id="lastname">Last name</label>
+   <input type="text" name="lastname" id="lastname" > -->
+   <label for="email" id="email">Email</label>
+   <input type="text" name="email" id="email" required>
+   <label for="password" id="password">Password</label>
+   <input type="password" name="password" id="password" required>
+   <button type="submit" id="button" class="five">Save</button>
+  </form>
+</div>
+
+<div id="message"></div>
+
+<script src="signin.js"></script>
+</body>
+</html>
